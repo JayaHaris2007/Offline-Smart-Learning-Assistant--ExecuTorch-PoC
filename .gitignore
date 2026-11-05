@@ -1,0 +1,48 @@
+# ---- Model files (too large for GitHub; re-create them with the export steps in README.md) ----
+*.pte
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+*.onnx
+Qwen3-0.6B/
+qwen3_pte/
+qwen3_pte_*/
+
+# Keep the folder structure but not the contents
+models/*
+!models/.gitkeep
+
+# ---- OS images and archives (Raspberry Pi OS etc.) ----
+OS/*
+!OS/.gitkeep
+*.img
+*.img.xz
+*.iso
+*.7z
+*.zip
+*.tar
+*.tar.gz
+*.xz
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+et-venv/
+.env
+.ipynb_checkpoints/
+
+# ---- Caches and logs ----
+.cache/
+huggingface/
+*.log
+
+# ---- Editors and OS junk ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
